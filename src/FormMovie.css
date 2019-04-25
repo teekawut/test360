@@ -1,0 +1,40 @@
+.contrainer_form
+{
+    margin: 0 auto;
+    max-width: 768px;
+    padding: 10px;
+}
+input[type=text], select {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.select_add{
+    width: 100%;
+    margin: 8px 0;
+}
+.button_confirm{
+    background-color: #007bff;
+}
+.con_show_pic{
+    width: 100%;
+    text-align: center;
+}
+.showpic{
+    width: 80%;
+}
+.row
+{
+    width: 100%;
+    float: left;
+}
+.div-50{
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+}

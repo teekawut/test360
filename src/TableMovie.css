@@ -1,0 +1,83 @@
+.contrainer{
+    padding: 5px;
+  }
+  table{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  td{
+    text-align: left;
+  }
+  th{
+    text-align: center;
+  }
+  .check_box{
+    width: 100px;
+  }
+  .hashtag{
+    width: 50px;
+  }
+  button{
+    border: none;
+    color: white;
+    padding: 5px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100px;
+  }
+  .button_add {
+    background-color: #4CAF50;
+  }
+  .button_delete {
+    background-color: red;
+  }
+  .table_responsive
+  {
+    overflow-x:auto;
+  }
+  .filter{
+    display: inline-block;
+    width: 100%;
+  }
+  .filter_right{
+    display: inline-flex;
+    float: right;
+    width: 50%;
+  }
+  .select_op{
+    width: 50%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+  .center
+  {
+      text-align: center;
+  }
+  .poster_img{
+      max-width: 100px;
+  }
+  i{
+      cursor: pointer;
+  }
+  @media only screen and (max-width: 600px){
+    .filter{
+      text-align: center;
+    }
+    .filter_right{
+      display: block;
+      float: unset;
+      width: 100%;
+    }
+    .select_op {
+      width: 205px;
+      margin: 0px auto 4px;
+    }
+  }
